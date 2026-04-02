@@ -9,9 +9,7 @@
 | `full.ini` | 完整分流配置（含去广告、自动测速、微软/苹果分流） |
 | `mini.ini` | 精简分流配置 |
 | `BanAD.list` | 广告域名屏蔽列表 |
-| `Dia.list` | Dia 浏览器相关规则 |
-| `perplexity.list` | Perplexity AI 域名规则 |
-| `talkatone.list` | Talkatone 相关域名规则 |
+| `otherAI.list` | 其他 AI 服务规则（Grok、Perplexity、Meta AI、Copilot 等） |
 | `YTMusic4Homepod.list` | YouTube Music HomePod 兼容规则 |
 
 ## 使用
