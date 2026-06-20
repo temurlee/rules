@@ -8,9 +8,6 @@ DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,pplx.ai
 
-# Meta AI
-DOMAIN-SUFFIX,meta.ai
-
 # GitHub Copilot
 DOMAIN,api.github.com
 
