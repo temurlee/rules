@@ -27,3 +27,6 @@ DOMAIN,gateway.ai.cloudflare.com
 # Dia Browser
 DOMAIN-SUFFIX,diabrowser.engineering
 DOMAIN-SUFFIX,launchdarkly.com
+
+# OpenBot
+DOMAIN-SUFFIX,openbot.run
