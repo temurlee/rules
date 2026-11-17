@@ -301,9 +301,10 @@ function operator(pro) {
         }
       }
       keyover = keyover
-        .concat(firstName, usflag, nNames, findKeyValue, retainKey, ikey, ikeys)
+        .concat(firstName, usflag, nNames, findKeyValue, retainKey)
         .filter((k) => k !== "");
       e.name = keyover.join(FGF);
+      e._renameSuffix = [ikey, ikeys].filter((k) => k !== "").join(FGF);
     } else {
       if (nm) {
         e.name = FNAME + FGF + e.name;
@@ -314,6 +315,10 @@ function operator(pro) {
   });
   pro = pro.filter((e) => e.name !== null);
   jxh(pro);
+  pro.forEach((e) => {
+    if (e._renameSuffix) e.name += FGF + e._renameSuffix;
+    delete e._renameSuffix;
+  });
   numone && oneP(pro);
   blpx && (pro = fampx(pro));
   key && (pro = pro.filter((e) => !keyb.test(e.name)));
